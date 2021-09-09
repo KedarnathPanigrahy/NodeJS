@@ -1,0 +1,80 @@
+http://latentflip.com/loupe/?code=CmNvbnNvbGUubG9nKCJIaSEiKTsKCnNldFRpbWVvdXQoZnVuY3Rpb24gdGltZW91dCgpIHsKICAgIGNvbnNvbGUubG9nKCJDbGljayB0aGUgYnV0dG9uISIpOwp9LCA1MDAwKTsKCmNvbnNvbGUubG9nKCJXZWxjb21lIHRvIGxvdXBlLiIpOw%3D%3D!!!
+
+https://sequelize.org/master/
+
+
+NodeJs Training:
+Day1:
+https://centurylink-my.sharepoint.com/:v:/p/hemant_gupta/EZNzwcgkuzZKp79RWjFm5AoBVJbXvjZ--5RT6yzt9J3ufA
+https://centurylink-my.sharepoint.com/:v:/p/hemant_gupta/EdD-qpceDHdJrNRu2i7-4iMBYQntYbyhFJnskze8D5-17g
+
+http://latentflip.com/loupe/ --> for tracking the event loop flows.
+
+Day2:
+npm install -g express-generator
+express --view=pug myapp
+yeoman generator
+
+https://www.npmjs.com/package/socket.io
+https://www.npmjs.com/package/pm2
+
+https://centurylink-my.sharepoint.com/:v:/p/hemant_gupta/Eb0Hr86a9q9Bk300rwrSK8cBn_VHP9uwu0Hd7P-MeeptYA
+https://centurylink-my.sharepoint.com/:v:/p/hemant_gupta/EW_i795EZIdCs6JjWjnkoeUBvrRssnB6nOxiG7v3vrgflw
+
+
+Day3:
+https://centurylink-my.sharepoint.com/:v:/p/hemant_gupta/EV8ec4ytrSZIrFsn5jRh1GQBSWS25_-HWGNV7C5Z-9WbQg
+https://centurylink-my.sharepoint.com/:v:/p/udayteja_k/Eci5UIQH5pREv8HbEvHnKtsBKUR6b07EVW9df9vHkF0Gbw
+
+localhost:3001/api/sign-up
+
+{
+    "username": "arpitsh",
+    "password": "pass-1234",
+    "password_repeat": "pass-1234"
+}
+
+localhost:3001/api/login
+
+{
+    "username": "arpitsh",
+    "password": "pass-1234"
+}
+	
+localhost:3001/api/secret-route
+
+Authorization : Bearer token
+
+Day4:
+Unit Testing:
+    chai chai-http mocha sinon faker
+    "test": "mocha './test/routes/*.js' --timeout 5000"
+    test- fixtures, routes
+    fixtures-> notes.json
+	routes-> notes-test.js
+	
+Linting:
+	npm i eslint -D
+	npm run lint -- --init
+	npm run lint -- --fix
+	https://eslint.org/docs/2.0.0/rules/
+	npm i nyc
+	
+Best practices:
+	Modlarity,
+	Avoid synchronous calll
+	Avoid task which is CPU extensive
+	Unit testing and Linting =>use multiple rules
+	Codecoverage =>nyc
+	authenication
+	Clustering (horizantal scaling)
+	use prmises , asyn await more frequently for async operations
+	maintain package.json(dependecies and script.tag)
+	Use Enviornment variable , process.env.NODE_ENV, process.ENV_PORT
+	Require all your dependencies up front
+	use forever, pm2
+	avoid console.log (while pushing for deployement)
+	database optimization
+	
+https://centurylink-my.sharepoint.com/:v:/p/hemant_gupta/EZag9yQHsZxJqHtKW9EgJicBQH2SdYmKddfUuwaXKhx1ow
+https://centurylink-my.sharepoint.com/:v:/p/sunil_devadiga/EbxuRDdq7wNMr4HkaAaChXUBcKOwfnty5MHR3EfFkUEnjA
